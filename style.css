@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10rem;
+    text-align: center;
+    color: rgb(236, 231, 235);
+    background: rgb(60, 90, 223);
+    font-size: 3.25rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.run
+{
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(9, 10, 9);
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    color:azure;
+    font-size: 1.25rem;
+}
+
+.run:hover
+{
+    background-color: rgb(12, 12, 12);
+}
+
+.editor
+{
+    margin: 1rem 10rem;   
+}
+
+.input-header
+{
+    margin: 2rem 10rem; 
+    font-weight: bold;
+    background: rgb(4, 5, 6);
+    color: aliceblue;
+    font-size: 2.30rem;
+    text-align: center;
+    
+   
+}
+.editor
+{
+    height: 50vh;
+    margin: 0 10rem;
+
+}
+
+#input
+{
+    width: 83vw;
+    height: 20rem;
+    margin: 2rem 10rem;
+    padding: 1.2rem;
+   background: rgb(24, 173, 176);
+   
+}
+
+.output-header
+{
+    margin: 2rem 10rem; 
+    font-weight: bold;
+    text-align: center;
+    background: rgb(4, 5, 6);
+    color: aliceblue;
+    font-size: 2.30rem;
+}
+
+.code_output
+{
+    margin: 2rem 10rem; 
+    border: 2px solid rgb(17, 68, 82);  
+    height: 20rem;
+    font-size: 1.5rem;   
+    padding: 1.2rem;
+    color: rgb(221, 212, 212);
+    background: rgb(24, 173, 176);
+}
